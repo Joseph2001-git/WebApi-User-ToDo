@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Roles.Models;
 using ToDoList.Models;
 using UserRegistration.Models;
 
@@ -13,6 +14,10 @@ public class MyDbContext : DbContext
     public DbSet<User> Users { get; set; }
 
     public DbSet<ToDoModel> ToDos { get; set; }
+
+    public DbSet<RolesModel> Roles { get; set; }
+
+    public DbSet<UserRolesModel> UsersRoles { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

@@ -23,6 +23,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ToDoList\ToDoList.csproj" />
     <ProjectReference Include="..\UserRepository.Models\UserRepository.Models.csproj" />
+	<ProjectReference Include="..\Roles\Roles.csproj" />
   </ItemGroup>
 	
 

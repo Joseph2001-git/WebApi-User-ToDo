@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserRegistration", "UserRegistration\UserRegistration.csproj", "{62621321-0EDC-4CC0-AC2C-0E517B062D1D}"
 	ProjectSection(ProjectDependencies) = postProject
 		{443D397B-2859-4B66-AEF5-A8F6D27246F8} = {443D397B-2859-4B66-AEF5-A8F6D27246F8}
+		{6CEC8DA3-7D22-4A24-B571-5A60B46298E1} = {6CEC8DA3-7D22-4A24-B571-5A60B46298E1}
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserRepository.Models", "UserRepository.Models\UserRepository.Models.csproj", "{966BF2B8-D590-4E40-8D49-12C35CDA41EF}"
@@ -14,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoList", "ToDoList\ToDoLi
 	ProjectSection(ProjectDependencies) = postProject
 		{966BF2B8-D590-4E40-8D49-12C35CDA41EF} = {966BF2B8-D590-4E40-8D49-12C35CDA41EF}
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roles", "Roles\Roles.csproj", "{6CEC8DA3-7D22-4A24-B571-5A60B46298E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +36,10 @@ Global
 		{443D397B-2859-4B66-AEF5-A8F6D27246F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{443D397B-2859-4B66-AEF5-A8F6D27246F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{443D397B-2859-4B66-AEF5-A8F6D27246F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CEC8DA3-7D22-4A24-B571-5A60B46298E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CEC8DA3-7D22-4A24-B571-5A60B46298E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CEC8DA3-7D22-4A24-B571-5A60B46298E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CEC8DA3-7D22-4A24-B571-5A60B46298E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

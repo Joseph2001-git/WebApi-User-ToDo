@@ -1273,6 +1273,19 @@
           }
         }
       },
+      "Roles/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "UserRepository.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Roles.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Roles.dll": {}
+        }
+      },
       "ToDoList/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -4029,6 +4042,11 @@
         "version.txt"
       ]
     },
+    "Roles/1.0.0": {
+      "type": "project",
+      "path": "../Roles/Roles.csproj",
+      "msbuildProject": "../Roles/Roles.csproj"
+    },
     "ToDoList/1.0.0": {
       "type": "project",
       "path": "../ToDoList/ToDoList.csproj",
@@ -4046,25 +4064,26 @@
       "Microsoft.EntityFrameworkCore.Design >= 7.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.10",
+      "Roles >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0",
       "ToDoList >= 1.0.0",
       "UserRepository.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jochoueif\\.nuget\\packages\\": {}
+    "C:\\Users\\Joe\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Form\\UserRegistration\\UserRegistration\\UserRegistration.csproj",
+      "projectUniqueName": "C:\\Users\\Joe\\Desktop\\Project2\\Api\\UserRegistration\\UserRegistration.csproj",
       "projectName": "UserRegistration",
-      "projectPath": "C:\\Projects\\Form\\UserRegistration\\UserRegistration\\UserRegistration.csproj",
-      "packagesPath": "C:\\Users\\jochoueif\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Form\\UserRegistration\\UserRegistration\\obj\\",
+      "projectPath": "C:\\Users\\Joe\\Desktop\\Project2\\Api\\UserRegistration\\UserRegistration.csproj",
+      "packagesPath": "C:\\Users\\Joe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Joe\\Desktop\\Project2\\Api\\UserRegistration\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jochoueif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Joe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4078,11 +4097,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Projects\\Form\\UserRegistration\\ToDoList\\ToDoList.csproj": {
-              "projectPath": "C:\\Projects\\Form\\UserRegistration\\ToDoList\\ToDoList.csproj"
+            "C:\\Users\\Joe\\Desktop\\Project2\\Api\\Roles\\Roles.csproj": {
+              "projectPath": "C:\\Users\\Joe\\Desktop\\Project2\\Api\\Roles\\Roles.csproj"
             },
-            "C:\\Projects\\Form\\UserRegistration\\UserRepository.Models\\UserRepository.Models.csproj": {
-              "projectPath": "C:\\Projects\\Form\\UserRegistration\\UserRepository.Models\\UserRepository.Models.csproj"
+            "C:\\Users\\Joe\\Desktop\\Project2\\Api\\ToDoList\\ToDoList.csproj": {
+              "projectPath": "C:\\Users\\Joe\\Desktop\\Project2\\Api\\ToDoList\\ToDoList.csproj"
+            },
+            "C:\\Users\\Joe\\Desktop\\Project2\\Api\\UserRepository.Models\\UserRepository.Models.csproj": {
+              "projectPath": "C:\\Users\\Joe\\Desktop\\Project2\\Api\\UserRepository.Models\\UserRepository.Models.csproj"
             }
           }
         }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Form\\UserRegistration\\UserRepository.Models\\UserRepository.Models.csproj": {}
+    "C:\\Users\\Joe\\Desktop\\Project2\\Api\\UserRepository.Models\\UserRepository.Models.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Form\\UserRegistration\\UserRepository.Models\\UserRepository.Models.csproj": {
+    "C:\\Users\\Joe\\Desktop\\Project2\\Api\\UserRepository.Models\\UserRepository.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Form\\UserRegistration\\UserRepository.Models\\UserRepository.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Joe\\Desktop\\Project2\\Api\\UserRepository.Models\\UserRepository.Models.csproj",
         "projectName": "UserRepository.Models",
-        "projectPath": "C:\\Projects\\Form\\UserRegistration\\UserRepository.Models\\UserRepository.Models.csproj",
-        "packagesPath": "C:\\Users\\jochoueif\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Form\\UserRegistration\\UserRepository.Models\\obj\\",
+        "projectPath": "C:\\Users\\Joe\\Desktop\\Project2\\Api\\UserRepository.Models\\UserRepository.Models.csproj",
+        "packagesPath": "C:\\Users\\Joe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Joe\\Desktop\\Project2\\Api\\UserRepository.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jochoueif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Joe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,6 +41,12 @@
           "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.10, )"
             }

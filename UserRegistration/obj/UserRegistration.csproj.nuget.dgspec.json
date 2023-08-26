@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Form\\UserRegistration\\UserRegistration\\UserRegistration.csproj": {}
+    "C:\\Users\\Joe\\Desktop\\Project2\\Api\\UserRegistration\\UserRegistration.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Form\\UserRegistration\\ToDoList\\ToDoList.csproj": {
+    "C:\\Users\\Joe\\Desktop\\Project2\\Api\\Roles\\Roles.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Form\\UserRegistration\\ToDoList\\ToDoList.csproj",
-        "projectName": "ToDoList",
-        "projectPath": "C:\\Projects\\Form\\UserRegistration\\ToDoList\\ToDoList.csproj",
-        "packagesPath": "C:\\Users\\jochoueif\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Form\\UserRegistration\\ToDoList\\obj\\",
+        "projectUniqueName": "C:\\Users\\Joe\\Desktop\\Project2\\Api\\Roles\\Roles.csproj",
+        "projectName": "Roles",
+        "projectPath": "C:\\Users\\Joe\\Desktop\\Project2\\Api\\Roles\\Roles.csproj",
+        "packagesPath": "C:\\Users\\Joe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Joe\\Desktop\\Project2\\Api\\Roles\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jochoueif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Joe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projects\\Form\\UserRegistration\\UserRepository.Models\\UserRepository.Models.csproj": {
-                "projectPath": "C:\\Projects\\Form\\UserRegistration\\UserRepository.Models\\UserRepository.Models.csproj"
+              "C:\\Users\\Joe\\Desktop\\Project2\\Api\\UserRepository.Models\\UserRepository.Models.csproj": {
+                "projectPath": "C:\\Users\\Joe\\Desktop\\Project2\\Api\\UserRepository.Models\\UserRepository.Models.csproj"
               }
             }
           }
@@ -63,17 +63,17 @@
         }
       }
     },
-    "C:\\Projects\\Form\\UserRegistration\\UserRegistration\\UserRegistration.csproj": {
+    "C:\\Users\\Joe\\Desktop\\Project2\\Api\\ToDoList\\ToDoList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Form\\UserRegistration\\UserRegistration\\UserRegistration.csproj",
-        "projectName": "UserRegistration",
-        "projectPath": "C:\\Projects\\Form\\UserRegistration\\UserRegistration\\UserRegistration.csproj",
-        "packagesPath": "C:\\Users\\jochoueif\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Form\\UserRegistration\\UserRegistration\\obj\\",
+        "projectUniqueName": "C:\\Users\\Joe\\Desktop\\Project2\\Api\\ToDoList\\ToDoList.csproj",
+        "projectName": "ToDoList",
+        "projectPath": "C:\\Users\\Joe\\Desktop\\Project2\\Api\\ToDoList\\ToDoList.csproj",
+        "packagesPath": "C:\\Users\\Joe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Joe\\Desktop\\Project2\\Api\\ToDoList\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jochoueif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Joe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -87,11 +87,73 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projects\\Form\\UserRegistration\\ToDoList\\ToDoList.csproj": {
-                "projectPath": "C:\\Projects\\Form\\UserRegistration\\ToDoList\\ToDoList.csproj"
+              "C:\\Users\\Joe\\Desktop\\Project2\\Api\\UserRepository.Models\\UserRepository.Models.csproj": {
+                "projectPath": "C:\\Users\\Joe\\Desktop\\Project2\\Api\\UserRepository.Models\\UserRepository.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Joe\\Desktop\\Project2\\Api\\UserRegistration\\UserRegistration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Joe\\Desktop\\Project2\\Api\\UserRegistration\\UserRegistration.csproj",
+        "projectName": "UserRegistration",
+        "projectPath": "C:\\Users\\Joe\\Desktop\\Project2\\Api\\UserRegistration\\UserRegistration.csproj",
+        "packagesPath": "C:\\Users\\Joe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Joe\\Desktop\\Project2\\Api\\UserRegistration\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Joe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Joe\\Desktop\\Project2\\Api\\Roles\\Roles.csproj": {
+                "projectPath": "C:\\Users\\Joe\\Desktop\\Project2\\Api\\Roles\\Roles.csproj"
               },
-              "C:\\Projects\\Form\\UserRegistration\\UserRepository.Models\\UserRepository.Models.csproj": {
-                "projectPath": "C:\\Projects\\Form\\UserRegistration\\UserRepository.Models\\UserRepository.Models.csproj"
+              "C:\\Users\\Joe\\Desktop\\Project2\\Api\\ToDoList\\ToDoList.csproj": {
+                "projectPath": "C:\\Users\\Joe\\Desktop\\Project2\\Api\\ToDoList\\ToDoList.csproj"
+              },
+              "C:\\Users\\Joe\\Desktop\\Project2\\Api\\UserRepository.Models\\UserRepository.Models.csproj": {
+                "projectPath": "C:\\Users\\Joe\\Desktop\\Project2\\Api\\UserRepository.Models\\UserRepository.Models.csproj"
               }
             }
           }
@@ -154,17 +216,17 @@
         }
       }
     },
-    "C:\\Projects\\Form\\UserRegistration\\UserRepository.Models\\UserRepository.Models.csproj": {
+    "C:\\Users\\Joe\\Desktop\\Project2\\Api\\UserRepository.Models\\UserRepository.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Form\\UserRegistration\\UserRepository.Models\\UserRepository.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Joe\\Desktop\\Project2\\Api\\UserRepository.Models\\UserRepository.Models.csproj",
         "projectName": "UserRepository.Models",
-        "projectPath": "C:\\Projects\\Form\\UserRegistration\\UserRepository.Models\\UserRepository.Models.csproj",
-        "packagesPath": "C:\\Users\\jochoueif\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Form\\UserRegistration\\UserRepository.Models\\obj\\",
+        "projectPath": "C:\\Users\\Joe\\Desktop\\Project2\\Api\\UserRepository.Models\\UserRepository.Models.csproj",
+        "packagesPath": "C:\\Users\\Joe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Joe\\Desktop\\Project2\\Api\\UserRepository.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jochoueif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Joe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -191,6 +253,12 @@
           "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.10, )"
             }

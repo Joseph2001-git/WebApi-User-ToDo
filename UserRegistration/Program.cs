@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Roles.Interface;
 using ToDoList.Interface;
 using ToDoList.Repository;
 using UserRegistration;
@@ -14,6 +15,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IToDoRepository, ToDoRepository>();
 builder.Services.AddScoped<IUserRepository, UsersRepository>();
+builder.Services.AddScoped<IRoleRepository, RolesRepository>();
+builder.Services.AddScoped< IUserRolesRepository ,UserRolesRepository >();
 
 
 

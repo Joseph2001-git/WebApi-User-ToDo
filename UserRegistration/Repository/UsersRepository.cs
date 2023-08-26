@@ -84,10 +84,12 @@ public class UsersRepository : IUserRepository
         return  CheckName(firstname, lastname);
     }
 
+
     public async Task<IEnumerable<User>> GetUsers()
     {
         return await _context.Users.ToListAsync();
     }
+
 
     public async Task<Object> UpdateUser(UserDTO userDTO)
     {

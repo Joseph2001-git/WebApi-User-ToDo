@@ -1,0 +1,15 @@
+C:\Users\Joe\Desktop\Project2\Api\Roles\bin\Debug\net6.0\Roles.deps.json
+C:\Users\Joe\Desktop\Project2\Api\Roles\bin\Debug\net6.0\Roles.dll
+C:\Users\Joe\Desktop\Project2\Api\Roles\bin\Debug\net6.0\Roles.pdb
+C:\Users\Joe\Desktop\Project2\Api\Roles\bin\Debug\net6.0\UserRepository.Models.dll
+C:\Users\Joe\Desktop\Project2\Api\Roles\bin\Debug\net6.0\UserRepository.Models.pdb
+C:\Users\Joe\Desktop\Project2\Api\Roles\obj\Debug\net6.0\Roles.csproj.AssemblyReference.cache
+C:\Users\Joe\Desktop\Project2\Api\Roles\obj\Debug\net6.0\Roles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Joe\Desktop\Project2\Api\Roles\obj\Debug\net6.0\Roles.AssemblyInfoInputs.cache
+C:\Users\Joe\Desktop\Project2\Api\Roles\obj\Debug\net6.0\Roles.AssemblyInfo.cs
+C:\Users\Joe\Desktop\Project2\Api\Roles\obj\Debug\net6.0\Roles.csproj.CoreCompileInputs.cache
+C:\Users\Joe\Desktop\Project2\Api\Roles\obj\Debug\net6.0\Roles.csproj.CopyComplete
+C:\Users\Joe\Desktop\Project2\Api\Roles\obj\Debug\net6.0\Roles.dll
+C:\Users\Joe\Desktop\Project2\Api\Roles\obj\Debug\net6.0\refint\Roles.dll
+C:\Users\Joe\Desktop\Project2\Api\Roles\obj\Debug\net6.0\Roles.pdb
+C:\Users\Joe\Desktop\Project2\Api\Roles\obj\Debug\net6.0\ref\Roles.dll
