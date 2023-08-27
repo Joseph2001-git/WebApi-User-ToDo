@@ -4042,6 +4042,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "C:\\Projects\\Form\\UserRegistration\\Roles\\Roles.csproj",
       "Microsoft.EntityFrameworkCore >= 7.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.10",
@@ -4078,6 +4079,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Projects\\Form\\UserRegistration\\Roles\\Roles.csproj": {
+              "projectPath": "C:\\Projects\\Form\\UserRegistration\\Roles\\Roles.csproj"
+            },
             "C:\\Projects\\Form\\UserRegistration\\ToDoList\\ToDoList.csproj": {
               "projectPath": "C:\\Projects\\Form\\UserRegistration\\ToDoList\\ToDoList.csproj"
             },
@@ -4144,5 +4148,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Projects\\Form\\UserRegistration\\Roles\\Roles.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Projects\\Form\\UserRegistration\\Roles\\Roles.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
